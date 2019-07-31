@@ -285,6 +285,8 @@ def plot_colormap(filename=None,
         return
 
     # Flux function files
+    print("Todo")
+    
     if fluxdir!=None:
         if step != None:
             fluxfile = fluxdir+'flux.'+str(step).rjust(7,'0')+'.bin'
